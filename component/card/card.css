@@ -77,5 +77,6 @@
 .product-title,
 .title{
     background-color: var(--white);
+    color: var(--black);
     margin-left: 1rem;
 }

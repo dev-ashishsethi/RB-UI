@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito&family=Roboto:wght@100;300;400;500;700&display=swap');
-@import url('components\\card\\card.css') ;
+@import url('component\\card\\card.css') ;
 :root{
     --black:rgb(20 20 20);
     --red:#e50914;
@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5,h6{
     grid-template-areas: "header1 header2"
     "sidebar main"
     "footer footer";
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: 1fr 5fr;
     
 }
 .navbar{
@@ -123,6 +123,7 @@ a:visited{
 }
 .text-heading-dismiss{
     background-color: var(--white);
+    color: var(--black);
     margin-left:1rem;
 }
 
