@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito&family=Roboto:wght@100;300;400;500;700&display=swap');
-@import url('components\\card\\card.css') ;
+@import url('component\\card\\card.css');
+@import url('component\\avatar\\avatar.css');
 :root{
     --black:rgb(20 20 20);
     --red:#e50914;
@@ -16,6 +17,9 @@
     box-shadow: 5px 5px 8px 0 grey;
 }
 h1,h2,h3,h4,h5,h6{
+    color: var(--white);
+}
+p{
     color: var(--white);
 }
 .small-square-size{
@@ -41,7 +45,7 @@ h1,h2,h3,h4,h5,h6{
     grid-template-areas: "header1 header2"
     "sidebar main"
     "footer footer";
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: 0.5fr 5fr;
     
 }
 .navbar{
@@ -93,16 +97,19 @@ h1,h2,h3,h4,h5,h6{
     list-style: none;
     padding: 0;
     overflow-y:auto;
-    height: 80vh;
+   
 }
-
+.list-title{
+    border-bottom: 1px solid var(--white);
+    padding-bottom: 1rem;
+}
 .list-items{
     padding: 1rem;
     border-radius: 10px;
     
 }
 .list-items:hover{
-    background-color: grey;
+    padding-left: 2rem;
 }
 
 a{
@@ -129,6 +136,16 @@ a:visited{
 .text-heading{
     background-color: var(--white);
 }
+.social-links-group{
+    list-style: none;
+    padding: 0rem;
+}
+.social-links{
+    float: left;
+    padding: 5px;
+}
+
+
 
 .text{
     background-color: var(--white);
@@ -160,4 +177,5 @@ a:visited{
 .preview-and-code{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
