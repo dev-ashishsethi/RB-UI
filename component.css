@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5,h6{
     grid-template-areas: "header1 header2"
     "sidebar main"
     "footer footer";
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 0.5fr 5fr;
     
 }
 .navbar{
@@ -89,11 +89,15 @@ h1,h2,h3,h4,h5,h6{
     height: 98vh;
 }
 
+.list-title{
+    border-bottom: 1px solid var(--white);
+    padding-bottom: 1rem;
+}
 .side-list{
     list-style: none;
     padding: 0;
     overflow-y:auto;
-    height: 80vh;
+    /* height: 80vh; */
 }
 
 .list-items{
@@ -102,11 +106,21 @@ h1,h2,h3,h4,h5,h6{
     
 }
 .list-items:hover{
-    background-color: grey;
+    padding-left: 2rem;
+}
+
+.social-links-group{
+    list-style: none;
+    padding: 0rem;
+}
+.social-links{
+    float: left;
+    padding: 5px;
 }
 
 a{
     text-decoration: none;
+    color: var(--white);
 }
 a:visited{
     color: var(--white);
