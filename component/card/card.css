@@ -10,6 +10,8 @@
 }
 .text-font{
     color: var(--black);
+    background-color: var(--white);
+    padding: 10px;
 }
 .card-horizontal{
     position: relative;
@@ -68,6 +70,7 @@
     background-color: var(--white);
     overflow: hidden;
     margin: 1rem 0rem 1rem 1rem;
+    color: var(--black);
 }
 
 .ecommerce-price{
