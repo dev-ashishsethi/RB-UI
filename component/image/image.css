@@ -1,0 +1,17 @@
+.img-container{
+    display: inline-block;
+    resize: both;
+    overflow: scroll;
+    
+}
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+.img-round{
+    border-radius: 50%;
+    width: 30rem;
+    height: 30rem;
+}
+
