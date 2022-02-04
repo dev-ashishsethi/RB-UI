@@ -18,6 +18,9 @@
 h1,h2,h3,h4,h5,h6{
     color: var(--white);
 }
+p{
+    color: var(--white);
+}
 .small-square-size{
         width: 2.5rem;
         height: 2.5rem;
@@ -41,7 +44,7 @@ h1,h2,h3,h4,h5,h6{
     grid-template-areas: "header1 header2"
     "sidebar main"
     "footer footer";
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: 0.5fr 5fr;
     
 }
 .navbar{
@@ -107,6 +110,7 @@ h1,h2,h3,h4,h5,h6{
 
 a{
     text-decoration: none;
+    color: var(--white);
 }
 a:visited{
     color: var(--white);
