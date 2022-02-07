@@ -101,16 +101,19 @@ p{
     list-style: none;
     padding: 0;
     overflow-y:auto;
-    height: 80vh;
+    
 }
-
+.list-title{
+    border-bottom: 1px solid var(--white);
+    padding-bottom: 1rem;
+}
 .list-items{
     padding: 1rem;
     border-radius: 10px;
     
 }
 .list-items:hover{
-    background-color: grey;
+    padding-left: 2rem;
 }
 
 a{
@@ -137,6 +140,15 @@ a:visited{
 
 .text-heading{
     background-color: var(--white);
+}
+
+.social-links-group{
+    list-style: none;
+    padding: 0rem;
+}
+.social-links{
+    float: left;
+    padding: 5px;
 }
 
 .text{
