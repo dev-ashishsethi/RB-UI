@@ -1,0 +1,44 @@
+.input-box{
+    position: relative;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 6px 6px 6px 6px;
+    border: 1px solid var(--white);
+    color: var(--white);
+    height: 2.5rem;
+}
+.input-box::placeholder{
+    color: var(--white);
+}
+
+
+.input-box:focus {
+    display: inline-block;
+    /* color: var(--white); */
+}    
+.input-box:focus::placeholder{
+    position: absolute;
+    top: 0rem;
+    visibility: visible;
+}    
+
+.error-input{
+    border-color: var(--yellow);
+}
+.error-input::placeholder{
+    color: var(--yellow);
+    border-color: var(--yellow);
+}
+.error-input:focus{
+    outline: 1px solid var(--yellow);
+}
+.error-input:focus::placeholder{
+    color: var(--yellow);
+    border-color: var(--yellow);
+}
+
+.error-label{
+    display: block;
+    color: var(--yellow);
+    margin-top: 8px;
+}

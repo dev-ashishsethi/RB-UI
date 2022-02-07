@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito&family=Roboto:wght@100;300;400;500;700&display=swap');
 @import url('components\\card\\card.css') ;
+@import url('component\\input\\input.css') ;
+
 :root{
     --black:rgb(20 20 20);
     --red:#e50914;
     --white:#fff;
+    --green:#499F68;
+    --yellow:#e87c03; 
+    --orange:#f78e69;
     --font:'Roboto', sans-serif;
 }
 
@@ -164,4 +169,9 @@ a:visited{
 .preview-and-code{
     display: flex;
     justify-content: space-between;
+}
+.codebox{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
