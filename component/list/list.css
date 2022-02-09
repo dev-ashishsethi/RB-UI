@@ -1,6 +1,5 @@
 .drawer-list{
-    display: inline-block;
-    grid-area: d;
+    display: inline-flex;
     color: var(--black);
     background-color: var(--white);
     overflow: auto;
@@ -26,15 +25,8 @@
     background-color: var(--white);
 }
 
-
-
 .stacked-drawer-list{
-    display: inline-block;
-    grid-area: d;
-    color: var(--black);
-    background-color: var(--white);
-    overflow: auto;
-    border-radius: 5px;
+    flex-direction: column;
 }
 .stacked-drawer-unordered-list{
     list-style: none;
@@ -44,7 +36,6 @@
 }
 
 .stacked-drawer-list-item{
-    display: block;
     background-color: var(--white);
     padding: 7px;
 }

@@ -1,3 +1,9 @@
+.navbar-container{
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 3rem ;
+}
+
 .navbar-component{
     display: flex;
     background-color: var(--black);
@@ -11,6 +17,7 @@
     color: var(--white);
     background-color: red;
     margin-bottom: 3px;
+    margin-left:1rem;
 }
 .navbar-title{
     margin-right: auto;   
@@ -33,4 +40,5 @@
     width: 1.5rem;
     height: 1.5rem;
     font-size: 1.2rem;
+    margin-right:1rem;
 }
