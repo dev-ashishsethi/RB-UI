@@ -4,6 +4,9 @@
 @import url('component\\avatar\\avatar.css');
 @import url('component\\alerts\\alert.css');
 @import url('component\\Badges\\badge.css') ;
+@import url('component\\button\\button.css') ;
+@import url('component\\image\\image.css') ;
+
 
 :root{
     --black:rgb(20 20 20);
@@ -109,7 +112,13 @@ p{
     padding: 0;
     overflow-y:auto;
 
-   
+    
+}
+
+.list-title{
+    border-bottom: 1px solid var(--white);
+    padding-bottom: 1rem;
+
 }
 .list-title{
     border-bottom: 1px solid var(--white);
@@ -124,6 +133,7 @@ p{
 .list-items:hover{
     padding-left: 2rem;
 
+
 }
 
 .social-links-group{
@@ -133,6 +143,7 @@ p{
 .social-links{
     float: left;
     padding: 5px;
+
 
 }
 
@@ -162,16 +173,6 @@ a:visited{
 .text-heading{
     background-color: var(--white);
 }
-.social-links-group{
-    list-style: none;
-    padding: 0rem;
-}
-.social-links{
-    float: left;
-    padding: 5px;
-}
-
-
 
 .text{
     background-color: var(--white);
@@ -183,25 +184,17 @@ a:visited{
     background-color: var(--white);
     border-radius: 1rem;
 }
-.btn{ 
-    border: none;
-    border-radius: 0.3rem;
-    padding: 0.5rem 1rem;
-    margin: 2rem 0rem 1rem 1rem;
-    cursor: pointer;
-}
-.btn-primary{
-    background-color: var(--red);
-    color: var(--white);
-}
-.btn-secondary{
-    background-color: var(--white);
-    color: var(--black);
-    outline: 0.1rem solid var(--black);
-}
+
 
 .preview-and-code{
     display: inline-flex;
     justify-content: space-between;
     flex-direction: column;
+
+}
+.codebox{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
 }
