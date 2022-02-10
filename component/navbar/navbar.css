@@ -1,0 +1,44 @@
+.navbar-container{
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 3rem ;
+}
+
+.navbar-component{
+    display: flex;
+    background-color: var(--black);
+    height: 5rem;
+    align-items: center;
+}
+
+.hamburger-lines{
+    width: 1.2rem;
+    height: 4px;
+    color: var(--white);
+    background-color: red;
+    margin-bottom: 3px;
+    margin-left:1rem;
+}
+.navbar-title{
+    margin-right: auto;   
+    color: var(--red);
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.searchbar{
+    background-color: var(--white);
+    border: none;
+    border-radius: 5px;
+    height: 1.5rem;
+    padding: 6px;
+}
+.navbar-icons{
+    margin-left: 1rem;
+    color: var(--white);
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1.2rem;
+    margin-right:1rem;
+}
