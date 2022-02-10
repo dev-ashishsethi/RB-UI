@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito&family=Roboto:wght@100;300;400;500;700&display=swap');
 
+@import url('components\\card\\card.css') ;
 @import url('component\\card\\card.css');
 @import url('component\\avatar\\avatar.css');
 @import url('component\\alerts\\alert.css');
 @import url('component\\Badges\\badge.css') ;
 @import url('component\\button\\button.css') ;
 @import url('component\\image\\image.css') ;
+@import url('component\\input\\input.css') ;
+@import url('component\\snackbar\\snackbar.css') ;
+
 
 
 :root{
@@ -111,20 +115,14 @@ p{
     list-style: none;
     padding: 0;
     overflow-y:auto;
-
-    
 }
+
 
 .list-title{
     border-bottom: 1px solid var(--white);
     padding-bottom: 1rem;
-
 }
-.list-title{
-    border-bottom: 1px solid var(--white);
-    padding-bottom: 1rem;
 
-}
 .list-items{
     padding: 1rem;
     border-radius: 10px;
@@ -132,8 +130,6 @@ p{
 }
 .list-items:hover{
     padding-left: 2rem;
-
-
 }
 
 .social-links-group{
@@ -143,7 +139,6 @@ p{
 .social-links{
     float: left;
     padding: 5px;
-
 
 }
 
@@ -174,6 +169,15 @@ a:visited{
     background-color: var(--white);
 }
 
+.social-links-group{
+    list-style: none;
+    padding: 0rem;
+}
+.social-links{
+    float: left;
+    padding: 5px;
+}
+
 .text{
     background-color: var(--white);
     margin: 0rem 1rem;
@@ -190,11 +194,9 @@ a:visited{
     display: inline-flex;
     justify-content: space-between;
     flex-direction: column;
-
 }
 .codebox{
     display: block;
     margin-top: 1rem;
     margin-bottom: 1rem;
-
 }
