@@ -1,0 +1,40 @@
+.snackbar{
+    display: inline-block;
+    background-color: var(--white);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.snackbar-text{
+    display: inline-block;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.liveDemo-btn{
+    display: block;
+    background-color: var(--red);
+    border: none;
+    margin-top: 1rem;
+    color: var(--white);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#snackbar-working{
+    display: none;
+    position: fixed;
+    bottom: 0rem;
+    left: 45rem;
+}
+
+.snackbar-btn{
+    background-color: transparent;
+    color: var(--red);
+    border: none;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
