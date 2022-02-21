@@ -12,6 +12,11 @@ To start using this component library in your project, copy the below code in yo
 <link rel="stylesheet" href="https://r-and-b-ui.netlify.app/component.css">
 ```
 
+## Live link
+---
+<a href="https://r-and-b-ui.netlify.app/">Live link</a>
+
+
 ## List of components
 ---
 You can click on below items in list to read about these components.
