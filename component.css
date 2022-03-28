@@ -11,6 +11,7 @@
 @import url('component\\navbar\\navbar.css');
 @import url('component\\list\\list.css');
 @import url('component\\textUtilities\\textUtilities.css');
+@import url('component\\modal\\modal.css');
 
 
 :root{
@@ -106,6 +107,7 @@ p{
     position: sticky;
     top: 1rem;
     height: 98vh;
+    overflow: auto;
 }
 
 .list-title{
