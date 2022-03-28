@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>R&B Introduction</title>
+    <title>R&B Text Utilities</title>
     <link rel="icon" href="../../assets\icon\RB-icon.png" type="image/icon type">
     <link rel="stylesheet" href="../../component.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
@@ -13,6 +13,7 @@
 
 <body>
     <div class="grid-container">
+
         <nav class="navbar" id="top">
             <a href="..\..\index.html">
                 <p class="nav-title">R<span class="nav-title-short">&</span>B <span class="nav-title-short">UI</span>
@@ -21,15 +22,14 @@
         </nav>
         <nav class="nav-links">
 
-            <a href="../component/card/card.html">
+            <a href="../card/card.html">
                 <p class="nav-docs">Docs</p>
             </a>
         </nav>
-
         <div class="sidebar">
             <h3 class="list-title">Get Started</h3>
             <ul class="side-list">
-                <a href="">
+                <a href="../card/card.html">
                     <li class="list-items">Introduction</li>
                 </a>
             </ul>
@@ -38,40 +38,42 @@
 
             <h3 class="list-title">Components</h3>
             <ul class="side-list">
-                <a href="../component/card/card.html">
+                
+
+                <a href="../card/card.html">
                     <li class="list-items">Cards</li>
                 </a>
-                <a href="../component/Badges/badge.html">
+                <a href="../Badges/badge.html">
                     <li class="list-items">Badge</li>
                 </a>
-                <a href="../component/avatar/avatar.html">
+                <a href="../avatar/avatar.html">
                     <li class="list-items">Avatar</li>
                 </a>
-                <a href="../component/alerts/alert.html">
+                <a href="../alerts/alert.html">
                     <li class="list-items">Alert</li>
                 </a>
-                <a href="../component/button/button.html">
+                <a href="../button/button.html">
                     <li class="list-items">Button</li>
                 </a>
-                <a href="../component/image/image.html">
+                <a href="../image/image.html">
                     <li class="list-items">Image</li>
                 </a>
-                <a href="../component/input/input.html">
+                <a href="../input/input.html">
                     <li class="list-items">Input</li>
                 </a>
-                <a href="../component/snackbar/snackbar.html">
+                <a href="../snackbar/snackbar.html">
                     <li class="list-items">Snackbar</li>
                 </a>
-                <a href="../component/list/list.html">
+                <a href="../list/list.html">
                     <li class="list-items">List</li>
                 </a>
-                <a href="../component/navbar/navbar.html">
+                <a href="../navbar/navbar.html">
                     <li class="list-items">NavBar</li>
                 </a>
-                <a href="../component/textUtilities/textUtilities.html">
+                <a href="">
                     <li class="list-items">Text Utilities</li>
                 </a>
-               
+
             </ul>
 
             <h3 class="list-title">Connect with developer</h3>
@@ -111,18 +113,65 @@
 
         <div class="main-content">
 
-            <h1>Introduction</h1>
-            <p>R and B UI is red and black UI which is based out of a famous OTT platform's color theme. It is designed to make your life easier and more productive. You can just write your own HTML code and use our CSS classes and you can make your website ready in no time.</p>
+            <h1>Text Utilities</h1>
+            <p>Text utilities can be used to style text according to your website needs whether you need heading, small
+                text, gray text or center text you can have it.</p>
 
-            <h2>Installation Guide</h2>
-            <p>In order to use R&B UI in your project, Copy the Link given below and paste it in the &lthead&gt tag of your html, above all other style sheets.</p>
-            <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=41px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fr-and-b-ui.netlify.app%252Fcomponent.css%2522%253E"
-            style="width: 816px; height: 174px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin" class="codebox">
-            </iframe>
+            <h2>Headings</h2>
+            <p>These are 6 different sizes of headings that can be used</p>
+            <div class="preview-and-code">
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+                <h5>Heading 5</h5>
+                <h6>Heading 6</h6>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=55px&wc=true&wa=true&pv=40px&ph=54px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%253EHeading%25201%253C%252Fh1%253E%250A%253Ch2%253EHeading%25202%253C%252Fh2%253E%250A%253Ch3%253EHeading%25203%253C%252Fh3%253E%250A%253Ch4%253EHeading%25204%253C%252Fh4%253E%250A%253Ch5%253EHeading%25205%253C%252Fh5%253E%250A%253Ch6%253EHeading%25206%253C%252Fh6%253E"
+                    style="width: 281px; height: 249px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2>Small Text</h2>
+            <p>These are different types of small texts that can be used</p>
+            <div class="preview-and-code">
+                <p>small text</p>
+                <p class="italic-txt">italic small text</p>
+                <p class="bold-text">bold small text</p>
+                <p class="strikethrough-text">strikethrough small text</p>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=55px&wc=true&wa=true&pv=40px&ph=48px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%253Esmall%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522italic-txt%2522%253Eitalic%2520small%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522bold-text%2522%253Ebold%2520small%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522strikethrough-text%2522%253Estrikethrough%2520small%2520text%253C%252Fp%253E"
+                    style="width: 589px; height: 211px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
 
+            <h2>Gray Text</h2>
+            <p>These are different types of small texts in gray color that can be used</p>
+            <div class="preview-and-code">
+                <p class="gray-text">small text</p>
+                <p class="italic-txt-gray">italic small text</p>
+                <p class="bold-text-gray">bold small text</p>
+                <p class="strikethrough-text-gray">strikethrough small text</p>
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=55px&wc=true&wa=true&pv=40px&ph=48px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522gray-text%2522%253Esmall%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522italic-txt-gray%2522%253Eitalic%2520small%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522bold-text-gray%2522%253Ebold%2520small%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522strikethrough-text-gray%2522%253Estrikethrough%2520small%2520text%253C%252Fp%253E"
+  style="width: 629px; height: 209px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
             
+            <h2>Center Text</h2>
+            <p>These are different types of small texts in gray color that can be used</p>
+            <div class="preview-and-code">
+                <h1 class="center-text">Center text</h1>
+                
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=55px&wc=true&wa=true&pv=40px&ph=48px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522center-text%2522%253ECenter%2520text%253C%252Fh1%253E"
+  style="width: 442px; height: 155px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+
         </div>
     </div>
     </div>

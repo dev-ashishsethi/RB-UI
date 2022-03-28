@@ -1,0 +1,32 @@
+.italic-txt{
+    font-style: italic;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.gray-text{
+    color: grey;
+}
+.strikethrough-text{
+    text-decoration: line-through;
+}
+.italic-txt-gray{
+    font-style: italic;
+    color: grey;
+}
+
+.bold-text-gray{
+    font-weight: bold;
+    color: grey;
+}
+
+.strikethrough-text-gray{
+    text-decoration: line-through;
+    color: grey;
+}
+
+.center-text{
+    text-align: center;
+}
