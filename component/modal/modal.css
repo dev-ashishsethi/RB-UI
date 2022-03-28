@@ -1,0 +1,16 @@
+.modal-container{
+    position: relative;
+}
+.modal{
+    position: absolute;
+    background-color: var(--white);
+    padding: 1rem;
+    width: 30rem;
+    border-radius: 5px;
+    z-index: 1;
+    top: 10rem;
+    left: 5rem;
+}
+.modal-btn{
+    background-color: var(--white);
+}
