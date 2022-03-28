@@ -10,6 +10,7 @@
 @import url('component\\snackbar\\snackbar.css') ;
 @import url('component\\navbar\\navbar.css');
 @import url('component\\list\\list.css');
+@import url('component\\textUtilities\\textUtilities.css');
 
 
 :root{
