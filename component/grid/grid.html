@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>R&B Images</title>
+    <title>R&B Grid</title>
     <link rel="icon" href="../../assets\icon\RB-icon.png" type="image/icon type">
     <link rel="stylesheet" href="../../component.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
@@ -29,13 +29,17 @@
         <div class="sidebar">
             <h3 class="list-title">Get Started</h3>
             <ul class="side-list">
-                <a href="../../get Started/introduction.html">
+                <a href="../card/card.html">
                     <li class="list-items">Introduction</li>
                 </a>
             </ul>
 
+
+
             <h3 class="list-title">Components</h3>
             <ul class="side-list">
+                
+
                 <a href="../card/card.html">
                     <li class="list-items">Cards</li>
                 </a>
@@ -54,7 +58,6 @@
                 <a href="../image/image.html">
                     <li class="list-items">Image</li>
                 </a>
-                <a href="">
                 <a href="../input/input.html">
                     <li class="list-items">Input</li>
                 </a>
@@ -76,9 +79,10 @@
                 <a href="../rating/rating.html">
                     <li class="list-items">Rating</li>
                 </a>
-                <a href="../grid/grid.html">
+                <a href="">
                     <li class="list-items">Grid</li>
                 </a>
+               
             </ul>
 
             <h3 class="list-title">Connect with developer</h3>
@@ -118,31 +122,37 @@
 
         <div class="main-content">
 
-            <h1>Images</h1>
-            <p>Responsive and round images are most commonly used. You can make yours responsive by using code snippets below.</p>
-            <h2>Responsive Image</h2>
-            <p> You can use responsive image in your project using below code. Image will have 100% of width of container and height will adjust accordingly while reserving aspect ratio. <br>
-            Note: <strong>In below example you can use scroll bar to resize the image container therefore resizing the image.</strong></p>
-            
-            <div class="img-container">
-            <img src="https://picsum.photos/200" alt="Responsive image" class="img-responsive">
-            </div>
-            <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=none&l=htmlmixed&width=955&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522..%255C..%255Cassets%255Cimages%255CWALLPAPER.JPG%2522%2520alt%253D%2522%2522%2520class%253D%2522img-responsive%2522%253E"
-            style="width: 955px; height: 76px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin" class="codebox">
-          </iframe>
+            <h1>Grid</h1>
+            <p>Grids are components of websites or web apps that can be used to make a layout of a webpage.</p>
+            <h3>Grid with two items</h3>
+            <p>This type of grid can be used when you want to show two items in one container</p>
 
-            <h2>Round Image</h2>
-            <p>You can use Round image class to add make an image round in your project.</p>
-            
-            <img src="https://picsum.photos/200" alt="Round responsive image" class="img-round img-responsive">
-            
+            <div class="simplified-grid-container">
+                <div class="grid-one">Grid One</div>
+                <div class="grid-two">Grid Two</div>
+            </div>
+
             <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=none&l=htmlmixed&width=955&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522..%255C..%255Cassets%255Cimages%255CWALLPAPER.JPG%2522%2520alt%253D%2522%2522%2520class%253D%2522img-round%2522%253E"
-            style="width: 955px; height: 76px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin" class="codebox">
-          </iframe>
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=55px&wc=true&wa=true&pv=40px&ph=48px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522simplified-grid-container%2522%253E%250A%2520%253Cdiv%2520class%253D%2522grid-one%2522%253EGrid%2520One%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522grid-two%2522%253EGrid%2520Two%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 434px; height: 209px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+            <h3>Grid with three items</h3>
+            <p>This type of grid can be used when you want to show three items in one container</p>
+
+            <div class="simplified-grid-container-for-three">
+                <div class="grid-one">Grid One</div>
+                <div class="grid-two">Grid Two</div>
+                <div class="grid-three">Grid Three</div>
+            </div>
+
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=55px&wc=true&wa=true&pv=40px&ph=48px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522simplified-grid-container-for-three%2522%253E%250A%2520%253Cdiv%2520class%253D%2522grid-one%2522%253EGrid%2520One%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522grid-two%2522%253EGrid%2520Two%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522grid-three%2522%253EGrid%2520Three%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 515px; height: 227px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
         </div>
     </div>
     </div>
