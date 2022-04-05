@@ -1,0 +1,35 @@
+.simplified-grid-container{
+    display: grid;
+    grid-template-areas: "one two";
+
+    background-color: var(--white);
+    padding: 4rem;
+    gap: 1rem;
+}
+
+.grid-one{
+    grid-area: one;
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.grid-two{
+    grid-area: two;
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.simplified-grid-container-for-three{
+    display: grid;
+    grid-template-areas: "one two three";
+
+    background-color: var(--white);
+    padding: 4rem;
+    gap: 1rem;
+}
+
+.grid-three{
+    grid-area: three;
+    background-color: var(--red);
+    color: var(--white);
+}

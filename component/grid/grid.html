@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>R&B Button</title>
+    <title>R&B Grid</title>
     <link rel="icon" href="../../assets\icon\RB-icon.png" type="image/icon type">
     <link rel="stylesheet" href="../../component.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
@@ -29,12 +29,17 @@
         <div class="sidebar">
             <h3 class="list-title">Get Started</h3>
             <ul class="side-list">
-                <a href="../../get Started/introduction.html">
+                <a href="../card/card.html">
                     <li class="list-items">Introduction</li>
                 </a>
             </ul>
+
+
+
             <h3 class="list-title">Components</h3>
             <ul class="side-list">
+                
+
                 <a href="../card/card.html">
                     <li class="list-items">Cards</li>
                 </a>
@@ -71,20 +76,13 @@
                 <a href="../modal/modal.html">
                     <li class="list-items">Modal</li>
                 </a>
-                <a href="../modal/modal.html">
-                    <li class="list-items">Modal</li>
-                </a>
                 <a href="../rating/rating.html">
                     <li class="list-items">Rating</li>
                 </a>
-
-                <a href="../grid/grid.html">
+                <a href="">
                     <li class="list-items">Grid</li>
-
-                <a href="../slider/slider.html">
-                    <li class="list-items">Slider</li>
-
                 </a>
+               
             </ul>
 
             <h3 class="list-title">Connect with developer</h3>
@@ -124,69 +122,38 @@
 
         <div class="main-content">
 
-            <h1>Buttons</h1>
-            <p>Buttons are usually used for performing any action.</p>
-            <h2>Primary Button</h2>
-            <p>Primary button is CTA (Call To Action) button which influences user to click on it.</p>
-            
-            <button class="btn btn-primary">Primary</button>
+            <h1>Grid</h1>
+            <p>Grids are components of websites or web apps that can be used to make a layout of a webpage.</p>
+            <h3>Grid with two items</h3>
+            <p>This type of grid can be used when you want to show two items in one container</p>
+
+            <div class="simplified-grid-container">
+                <div class="grid-one">Grid One</div>
+                <!-- <div  class="grid-subcontainer"></div> -->
+                <!-- <div  class="grid-subcontainer"></div> -->
+                <div class="grid-two">Grid Two</div>
+            </div>
 
             <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=none&l=htmlmixed&width=955&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E"
-            style="width: 955px; height: 76px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin" class="codebox">
-            </iframe>
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=55px&wc=true&wa=true&pv=40px&ph=48px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522simplified-grid-container%2522%253E%250A%2520%253Cdiv%2520class%253D%2522grid-one%2522%253EGrid%2520One%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522grid-two%2522%253EGrid%2520Two%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 434px; height: 209px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
 
-            <h2>Link Button</h2>
-            <p>You can use Link button if you want to open a link by clicking button.</p>
-            
-            <button class="btn btn-primary"><a href="" class="link-btn">Link button</a></button>
-            
-            <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=none&l=htmlmixed&width=955&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253E%253Ca%2520href%253D%2522%2522%2520class%253D%2522link-btn%2522%253ELink%2520button%253C%252Fa%253E%253C%252Fbutton%253E"
-            style="width: 955px; height: 76px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin" class="codebox">
-            </iframe>
+            <h3>Grid with three items</h3>
+            <p>This type of grid can be used when you want to show three items in one container</p>
 
-            <h2>Secondary Button</h2>
-            <p>Secondary button can be used as an action button but it is not CTA.</p>
-            
-            <button class="btn btn-secondary">Secondary</button>
+            <div class="simplified-grid-container-for-three">
+                <div class="grid-one">Grid One</div>
+                <div class="grid-two">Grid Two</div>
+                <div class="grid-three">Grid Three</div>
+            </div>
 
             <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=none&l=htmlmixed&width=955&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E"
-            style="width: 955px; height: 76px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin" class="codebox">
-            </iframe>
-            <h2>Icon Button</h2>
-            <p>Icon button can be when you have to use icon inside a button.</p>
-            
-            
-            <button class="btn btn-primary"><i class="fas fa-shopping-cart icon-btn"></i> Add to cart</button>
-
-            <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=none&l=htmlmixed&width=955&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520icon-btn%2522%253E%253C%252Fi%253E%2520%250A%2520%2520Add%2520to%2520cart%253C%252Fbutton%253E"
-            style="width: 955px; height: 113px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin" class="codebox">
-            </iframe>
-            
-
-
-            <h2>Floating action Button</h2>
-            <p>A floating action button represents the primary action in an application. A floating action button is used for a promoted action. <br>
-            For example, when you click on this arrow button below it will take you to the top of the page. </p>
-
-            
-
-            <a href="#top"><button class="btn btn-primary btn-floating" > <i class="fas fa-arrow-up icon-btn"></i></button></a>
-            
-            <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=none&l=htmlmixed&width=955&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523top%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-floating%2522%2520%253E%2520%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2520icon-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%253C%252Fa%253E"
-            style="width: 955px; height: 150px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin" class="codebox">
-            </iframe>
-                    
-            
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=55px&wc=true&wa=true&pv=40px&ph=48px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522simplified-grid-container-for-three%2522%253E%250A%2520%253Cdiv%2520class%253D%2522grid-one%2522%253EGrid%2520One%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522grid-two%2522%253EGrid%2520Two%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522grid-three%2522%253EGrid%2520Three%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 515px; height: 227px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
 
         </div>
     </div>
