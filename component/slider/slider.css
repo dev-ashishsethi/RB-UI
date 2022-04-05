@@ -1,0 +1,10 @@
+.custom-slider{
+   
+    background-color: white;
+    border-radius: 5px;
+   appearance: none;
+}
+
+.volume{
+    color: var(--white);
+}
