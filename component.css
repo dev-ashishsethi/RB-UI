@@ -13,7 +13,11 @@
 @import url('component\\textUtilities\\textUtilities.css');
 @import url('component\\modal\\modal.css');
 @import url('component\\rating\\rating.css');
+
 @import url('component\\grid\\grid.css');
+
+@import url('component\\slider\\slider.css');
+
 
 
 :root{
